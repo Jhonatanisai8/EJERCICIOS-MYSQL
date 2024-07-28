@@ -1,0 +1,25 @@
+### Base de Datos: Librería
+
+#### Tabla y Campos a Crear
+
+**Tabla: libros**
+- `id` (INT, PRIMARY KEY)
+- `titulo` (VARCHAR)
+- `autor` (VARCHAR)
+- `anio_publicacion` (INT)
+- `genero` (VARCHAR)
+- `precio` (DECIMAL)
+
+#### Ejercicios
+
+1. **SELECT y DISTINCT**: 
+   Escribe una consulta que seleccione todos los géneros de libros disponibles en la base de datos, pero sin repeticiones.
+
+2. **WHERE**: 
+   Escribe una consulta que seleccione todos los libros cuyo precio sea mayor a 20.00.
+
+3. **ORDER BY**: 
+   Escribe una consulta que seleccione todos los libros y los ordene por el año de publicación en orden descendente.
+
+4. **LIKE**: 
+   Escribe una consulta que seleccione todos los libros cuyo título comience con la palabra "El".
